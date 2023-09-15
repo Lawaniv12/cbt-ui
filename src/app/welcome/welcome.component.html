@@ -1,0 +1,24 @@
+<nav class="navbar navbar-dark bg-[#171c5a]">
+  <div class="container-fluid">
+    <p class="navbar-brand text-bold text-white p-6 text-lg" >
+
+      <span class="">APTITUDE TEST</span>
+    </p>
+  </div>
+</nav>
+<div class="bg-gray-100 py-5 mx-16 px-4">
+  <p class="text-3xl font-bold mb-4">Welcome</p>
+  <p class="text-lg col-span-2 mb-6">This quiz will contain a total of 60 Questions.</p>
+  <p class="text-xl mb-2">Rules:</p>
+  <ol class="list-decimal ml-6 mb-6">
+
+    <li>You have 60 secs for each questions</li>
+    <li>Refreshing the page will reset the Quiz</li>
+  </ol>
+  <h2 class="text-2xl font-cursive text-center mb-4">Wish you the Best</h2>
+  <div class="col-span-2 mb-3">
+    <label for="name" class="block text-lg mb-2">Enter Your Name:</label>
+    <input #name type="text" class="w-[50%] px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+  </div>
+  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-xl"  routerLink="/test" (click)="startQuiz()">Start the Quiz!</button>
+</div>

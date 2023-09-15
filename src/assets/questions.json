@@ -1,0 +1,553 @@
+{
+  "questions": [
+    {
+      "questionText": "Are you more?",
+      "options": [
+        {
+          "text": "realistic than speculative",
+          "correct": false
+
+        },
+        {
+          "text": " speculative than realistic.",
+          "correct": true
+
+        }
+      ],
+      "otherInfo":      {
+       "deletedBy": null,
+       "testCategory": "Sensitive",
+       "TestCategoryName": "Sensitive"
+     }
+    },
+    {
+      "questionText": "Is it worse to:",
+      "options": [
+        {
+          "text": "have your “head in the clouds”",
+          "correct": false
+
+        },
+        {
+          "text": "be “in a rut” ",
+          "correct": true
+
+        }
+      ],
+      "optionsInfo":
+      {
+       "deletedBy": null,
+       "testCategory": "Sensitive",
+       "TestCategoryName": "Sensitive",
+       "testCategoryId": 2
+     }
+    },
+    {
+      "questionText": "When it comes to people, do you find yourself more drawn to:",
+      "options": [
+        {
+          "text": "Practical and down-to-earth individuals?",
+          "correct": false
+
+        },
+        {
+          "text": "Creative and imaginative individuals?",
+          "correct": true
+
+        }
+      ],
+      "optionsInfo":
+        {
+          "deletedBy": null,
+          "testCategory": "Sensitive",
+          "TestCategoryName": "Sensitive",
+          "testCategoryId": 2,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null
+        }
+    },
+    {
+      "questionText": "Do you find yourself more captivated by:",
+      "options": [
+        {
+          "text": "The concrete and tangible aspects of reality?",
+           "correct": false
+
+        },
+        {
+          "text": "The potential and possibilities that exist?",
+          "correct": true
+        }
+      ],
+      "optionsInfo":  {
+       "deletedBy": null,
+       "testCategory": "Sensitive",
+       "TestCategoryName": "Sensitive",
+       "testCategoryId": 2,
+       "createdBy": null,
+       "dateOfCreation": null,
+       "isDeleted": null,
+       "dateOfDeletion": null
+     }
+    },
+    {
+      "questionText": "In doing ordinary things, are you more likely to:",
+      "options": [
+        {
+          "text": "do it the usual way ",
+           "correct": false
+
+        },
+        {
+          "text": "do it your own way ",
+          "correct": true
+        }
+      ],
+      "optionsInfo":   {
+       "deletedBy": null,
+       "testCategory": "Sensitive",
+       "TestCategoryName": "Sensitive",
+       "testCategoryId": 1,
+       "createdBy": null,
+       "dateOfCreation": null,
+       "isDeleted": null,
+       "dateOfDeletion": null
+
+     }
+    },
+
+
+
+
+    {
+      "questionText": "When you're at a party, do you",
+      "options": [
+        {
+          "text": "interact with many, including strangers",
+          "correct": true
+        },
+        {
+          "text": "interact with a few, known to you",
+           "correct": false
+
+        }
+      ],
+      "optionsInfo": {
+       "deletedBy": null,
+       "testCategory": "Extrovert",
+       "TestCategoryName": "Extrovert",
+       "testCategoryId": 1,
+       "createdBy": null,
+       "dateOfCreation": null,
+       "isDeleted": null,
+       "dateOfDeletion": null
+
+     }
+    },
+    {
+      "questionText": "At parties, do you:",
+      "options": [
+        {
+          "text": "stay late, with increasing energy ",
+          "correct": true
+        },
+        {
+          "text": "leave early with decreased energy ",
+           "correct": false
+
+        }
+
+      ],
+      "optionsInfo": {
+        "deletedBy": null,
+        "testCategory": "Extrovert",
+        "TestCategoryName": "Extrovert",
+        "testCategoryId": 1,
+        "createdBy": null,
+        "dateOfCreation": null,
+        "isDeleted": null,
+        "dateOfDeletion": null
+
+      }
+
+    },
+    {
+      "questionText": "In your social groups, are you ",
+      "options": [
+        {
+          "text": "interested in other’s happenings ",
+          "correct": true
+        },
+        {
+          "text": "not interested in other’s happenings ",
+           "correct": false
+        }
+
+      ],
+      "optionsInfo":  {
+        "deletedBy": null,
+        "testCategory": "Extrovert",
+        "TestCategoryName": "Extrovert",
+        "testCategoryId": 1,
+        "createdBy": null,
+        "dateOfCreation": null,
+        "isDeleted": null,
+        "dateOfDeletion": null
+
+      }
+    },
+    {
+      "questionText": "When making a phone call, do you: ",
+      "options": [
+
+        {
+          "text": "speak spontaneously ",
+          "correct": true
+        },
+        {
+
+          "text": "practice what you’ll say ",
+           "correct": false
+        }
+      ],
+      "optionsInfo": {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 1,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Extrovert",
+          "TestCategoryName": "Extrovert"
+      }
+
+    },
+    {
+      "questionText": "When you’re with others, do you: ",
+      "options": [
+
+        {
+          "text": "initiate conversation",
+          "correct": true
+        },
+        {
+
+          "text": "wait to be approached ",
+           "correct": false
+
+        }
+      ],
+      "optionsInfo": {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 1,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Extrovert",
+          "TestCategoryName": "Extrovert"
+      }
+
+    },
+
+
+
+    {
+      "questionText": "Do you prefer to work: ",
+      "options": [
+
+        {
+          "correct": true,
+          "text": "to meet deadlines "
+
+        },
+        {
+
+          "text": "just “whenever” ",
+           "correct": false
+
+        }
+      ],
+      "optionsInfo":       {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 4,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Judging",
+          "TestCategoryName": "Judging"
+      }
+
+    },
+    {
+      "questionText": "Do you tend to choose: ",
+      "options": [
+
+        {
+          "text": "rather carefully ",
+          "correct": true
+        },
+        {
+
+          "text": "somewhat impulsively ",
+           "correct": false
+
+        }
+      ],
+      "optionsInfo": {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 4,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Judging",
+          "TestCategoryName": "Judging"
+      }
+
+    },
+    {
+      "questionText": "Are you more: ",
+      "options": [
+
+        {
+
+          "text": "Punctual",
+          "correct": true
+        },
+        {
+
+          "text": "Leisurely ",
+           "correct": false
+        }
+      ],
+      "optionsInfo": {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 4,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Judging",
+          "TestCategoryName": "Judging"
+      }
+
+    },
+    {
+      "questionText": "Does it bother you more to have things that are: ",
+      "options": [
+
+        {
+
+          "text": "Incomplete  ",
+           "correct": false
+        },
+        {
+
+          "text": "Completed ",
+          "correct": true
+        }
+      ],
+      "optionsInfo": {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 4,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Judging",
+          "TestCategoryName": "Judging"
+      }
+
+    },
+    {
+      "questionText": "Do you want things: ",
+      "options": [
+
+        {
+          "correct": true,
+          "text": " settled and decided "
+        },
+        {
+
+          "text": "unsettled and undecided ",
+           "correct": false
+
+        }
+      ],
+      "optionsInfo":      {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 4,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Judging",
+          "TestCategoryName": "Judging"
+      }
+
+    },
+
+
+
+    {
+      "questionText": "Are you more impressed by: ",
+      "options": [
+
+        {
+          "correct": true,
+          "text": "Principles"
+        },
+        {
+
+          "text": "Emotions",
+           "correct": false
+        }
+      ],
+      "optionsInfo":      {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 3,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Thinking",
+          "TestCategoryName": "Thinking"
+      }
+
+    },
+    {
+      "questionText": "Are you more drawn toward the: ",
+      "options": [
+
+        {
+          "correct": true,
+          "text": "Convincing "
+        },
+        {
+
+          "text": "Touching",
+           "correct": false
+        }
+      ],
+      "optionsInfo":  {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 3,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Thinking",
+          "TestCategoryName": "Thinking"
+      }
+
+    },
+    {
+      "questionText": "In judging others, are you more swayed by: ",
+      "options": [
+
+        {
+          "correct": true,
+          "text": "laws than circumstances "
+        },
+        {
+
+          "text": "circumstances than laws",
+           "correct": false
+        }
+      ],
+      "optionsInfo":
+      {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 3,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Thinking",
+          "TestCategoryName": "Thinking"
+      }
+
+    },
+    {
+      "questionText": "In approaching others, is your inclination to be somewhat: ",
+      "options": [
+
+        {
+          "correct": true,
+          "text": "Objective "
+        },
+        {
+
+          "text": "Personal",
+           "correct": false
+        }
+      ],
+      "optionsInfo":
+      {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 3,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Thinking",
+          "TestCategoryName": "Thinking"
+      }
+
+    },
+    {
+      "questionText": "Which appeals to you more: ",
+      "options": [
+
+        {
+          "correct": true,
+          "text": "consistency of thought "
+        },
+        {
+
+          "text": "harmonious human relationships",
+           "correct": false
+        }
+      ], "optionsInfo":    {
+        "questionBankId": 0,
+          "questionTypeId": 0,
+          "testCategoryId": 3,
+          "createdBy": null,
+          "dateOfCreation": null,
+          "isDeleted": null,
+          "dateOfDeletion": null,
+          "deletedBy": null,
+          "testCategory": "Thinking",
+          "TestCategoryName": "Thinking"
+      }
+
+    }
+
+  ]
+}

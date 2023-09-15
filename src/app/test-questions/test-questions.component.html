@@ -1,0 +1,109 @@
+<nav class="navbar navbar-dark bg-[#171c5a]">
+  <div class="container-fluid">
+    <p class="navbar-brand text-bold text-white p-6 text-lg">
+      <span class="">APTITUDE TEST</span>
+    </p>
+  </div>
+</nav>
+<div class="container mt-5">
+  <div class="card">
+    <div class="flex justify-between items-center p-3">
+      <div class="image">
+        <img src="assets/new-1.jpg" width="90" alt="logo" />
+      </div>
+      <div class="quiz-header">
+        <h4 class="font-cursive">Aptitude Test</h4>
+        <span class="italic">Welcome {{ name }} </span>
+      </div>
+    </div>
+    <ng-container *ngIf="!isQuizCompleted">
+      <div class="flex justify-around py-3">
+        <!-- <div class="score">
+          <h5>{{points}} Points</h5>
+        </div> -->
+        <div class="question-remain">
+          <span class="italic"
+            >Question {{ currentQuestion + 1 }} of
+            {{ questionList.length }}</span
+          >
+        </div>
+        <div class="timer">
+          <h4>{{ counter }} Sec</h4>
+        </div>
+      </div>
+      <div class="relative pt-1">
+        <!-- <div class="flex mb-2 items-center justify-between">
+    <div>
+      <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-teal-600 bg-teal-200">
+        Task in progress
+      </span>
+    </div>
+    <div class="text-right">
+      <span class="text-xs font-semibold inline-block text-teal-600">
+        72%
+      </span>
+    </div>
+  </div>
+  <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+    <div style="width:72%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+  </div> -->
+      </div>
+
+      <div class="question">
+        <div class="card">
+          <h3>{{ questionList[currentQuestion]?.questionText }}</h3>
+        </div>
+      </div>
+      <div class="option">
+        <ol *ngFor="let option of questionList[currentQuestion]?.options">
+          <li (click)="answer(currentQuestion + 1, option)">
+            <div appChangeBg [isCorrect]="option.correct" class="card">
+              {{ option.text }}
+            </div>
+
+          </li>
+        </ol>
+      </div>
+      <div class="flex justify-between">
+        <button
+          class="btn"
+          [disabled]="currentQuestion === 0"
+          (click)="previousQuestion()"
+        >
+          <img src="assets/left-chevron.png" alt="" class="w-10 h-10" />
+        </button>
+        <button class="btn" (click)="resetQuiz()">
+          <img src="assets/refresh.png" alt="" class="h-10 w-10" />
+        </button>
+        <button
+          class="btn"
+          [disabled]="currentQuestion === questionList.length - 1"
+          (click)="nextQuestion()"
+        >
+          <img src="assets/right-chevron.png" alt="" class="w-10 h-10" />
+        </button>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="isQuizCompleted">
+      <div class="flex items-center justify-between">
+        <img
+          class="w-1/2 mx-auto"
+          src="https://icon-library.com/images/celebration-icon-png/celebration-icon-png-7.jpg"
+          alt=""
+        />
+        <div class="result text-center w-1/2">
+          <p class="text-2xl">
+            Congratulations!! <br />
+            You have completed the Test <br />Below is your Result:
+        </p>
+          <p>Total Attempted Questions: {{ questionList.length }}</p>
+          <div *ngFor="let category of getPersonalityScores() | keyvalue">
+            <p>{{ category.key }}: {{ category.value }}</p>
+          </div>
+
+
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
