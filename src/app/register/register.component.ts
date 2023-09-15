@@ -15,6 +15,10 @@ export class RegisterComponent {
   signupForm: any = FormGroup;
   responseMessage: any;
 
+  showPassword = false;
+
+
+
 
   constructor(
     private fb: FormBuilder,
@@ -23,6 +27,7 @@ export class RegisterComponent {
     private snackbar: SnackbarService,
     private ngxService: NgxUiLoaderService
   ) {}
+  
 
   ngOnInit(): void{
     this.signupForm = this.fb.group({
@@ -37,6 +42,10 @@ export class RegisterComponent {
 
   get f() {
     return this.signupForm.controls;
+  }
+
+  togglePasswordVisibility() {
+    this.showPassword = !this.showPassword;
   }
 
   handleSubmit() {
