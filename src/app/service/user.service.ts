@@ -14,19 +14,19 @@ export class UserService {
   constructor(private httpClient: HttpClient) { }
 
   signup(data: any){
-    return this.httpClient.post(this.url + "/user/signup", data, {
+    return this.httpClient.post(this.url + "user/signup", data, {
       headers: new HttpHeaders().set('Content-Type', 'application/json')
     })
 
   }
 
   login(data: any){
-    return this.httpClient.post(this.url + "/user/login", data, {
+    return this.httpClient.post(this.url + "user/login", data, {
       headers: new HttpHeaders().set("Content-Type", 'application/json')
     })
   }
 
   getDetails(){
-    return this.httpClient.get(this.url + "/user/get")
+    return this.httpClient.get(this.url + "user/get")
   }
 }
