@@ -24,6 +24,10 @@ export class LoginComponent {
   responseMessage: any;
   showSuccessAlert = false;
   loginError = false;
+  
+  showPassword = false;
+
+
 
   constructor(
     private fb: FormBuilder,
@@ -65,9 +69,14 @@ export class LoginComponent {
         this.snackBar.openSnackBar(this.responseMessage, GlobalConstants.error);
       }
     });
+
+   
   }
 
-
+  togglePasswordVisibility() {
+    this.showPassword = !this.showPassword;
+  }
+  
   get f() {
     return this.loginForm.controls;
   }
